@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+.rightnav{
+    padding: 10px;
+    padding-right: 70px;
+    gap: 33px;
+}
+.logotext{
+    text-decoration: none;
+    color: white;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 61px;
+    color: white;
+    
+}
+div.scrollmenu {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    padding-top: 10px;
+    
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 13px;
+    text-decoration: none;
+    
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #333;
+  }
+  .cd a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    
+  }
+  .cd a img{
+    border-radius: 5px;
+  }
+  .con{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cd{
+    padding: 19px 0px;
+    margin: 0px 12px;
+  }
+  .hv{
+    line-height: unset;
+  }
+  .hv-2 span{
+    line-height: normal;
+  }
+
+  .hv:hover{
+    background-color: #333;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .hv-2:hover{
+    background-color: grey;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.emblem{
+  color: #ff0000;
+  width: 36px;
+  font-size: 28px;
+}
